@@ -1,0 +1,23 @@
+.container {
+    display:
+    grid;
+    grid-template-columns:
+    30% 60%;
+    grid-template-rows:
+    30px 80px 20px;
+    grid-template-areas:
+    "header header" "sidenav content" "footer footer"
+    }
+
+    .header{
+        grid-area: header;
+      }
+      .sidenav{
+        grid-area: sidenav;
+      }
+      .content{
+        grid-area: content;
+      }
+      .footer{
+        grid-area: footer;
+      }
